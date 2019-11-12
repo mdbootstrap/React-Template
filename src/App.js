@@ -131,6 +131,9 @@ class App extends Component {
                     <strong>Addons</strong>
                   </MDBNavLink>
                 </MDBNavItem>
+
+                
+
                 <MDBNavItem>
                   <MDBTooltip placement='bottom' domElement style={{ display: "block" }}>
                     <a
