@@ -1,6 +1,6 @@
 Material Design for Bootstrap
 
-Version: MDB React 4.23.1
+Version: MDB React 4.24.0
 
 Documentation:
 https://mdbootstrap.com/docs/react/
@@ -9,10 +9,10 @@ Getting started:
 https://mdbootstrap.com/docs/react/getting-started/quick-start/
 
 FAQ
-https://mdbootstrap.com/react/faq/
+https://mdbootstrap.com/docs/react/getting-started/faq/
 
 Support:
-https://mdbootstrap.com/support/cat/mdb-react/
+https://mdbootstrap.com/support/
 
 ChangeLog
 https://mdbootstrap.com/docs/react/changelog/
