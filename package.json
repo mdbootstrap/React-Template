@@ -4,7 +4,7 @@
   "private": true,
   "// If You want to install mdbreact from our GitLab repository, please replace '4.25.3' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
   "dependencies": {
-    "mdbreact": "4.25.3",
+    "mdbreact": "4.25.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "3.4.0",
