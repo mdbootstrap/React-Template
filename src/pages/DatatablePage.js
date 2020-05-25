@@ -556,6 +556,8 @@ const DatatablePage = () => {
                   entries={5}
                   pagesAmount={4}
                   data={data()}
+                  materialSearch={true}
+                  proSelect
                 />
               </MDBCardBody>
             </MDBCard>
@@ -576,6 +578,7 @@ const DatatablePage = () => {
                   entries={5}
                   pagesAmount={4}
                   data={data()}
+                  materialSearch
                 />
               </MDBCardBody>
             </MDBCard>
@@ -588,7 +591,7 @@ const DatatablePage = () => {
           <SectionContainer title='Without info' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover info={false} data={data()} />
+                <MDBDataTable striped bordered hover info={false} data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -600,7 +603,7 @@ const DatatablePage = () => {
           <SectionContainer title='Without sorting' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover sortable={false} data={data()} />
+                <MDBDataTable striped bordered hover sortable={false} data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -621,6 +624,7 @@ const DatatablePage = () => {
                   pagesAmount={4}
                   data={badgesData}
                   sortRows={['badge']}
+                  materialSearch
                 />
               </MDBCardBody>
             </MDBCard>
@@ -633,7 +637,7 @@ const DatatablePage = () => {
           <SectionContainer title='Initial order' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover order={['age', 'desc']} data={data()} />
+                <MDBDataTable striped bordered hover order={['age', 'desc']} data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -645,7 +649,7 @@ const DatatablePage = () => {
           <SectionContainer title='Without searching' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover searching={false} data={data()} />
+                <MDBDataTable striped bordered hover searching={false} data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -657,7 +661,7 @@ const DatatablePage = () => {
           <SectionContainer title='Bars positioning' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable barReverse striped bordered hover data={data()} />
+                <MDBDataTable barReverse striped bordered hover data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -669,7 +673,7 @@ const DatatablePage = () => {
           <SectionContainer title='With scrollY property' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover scrollY maxHeight='300px' data={data()} />
+                <MDBDataTable striped bordered hover scrollY maxHeight='300px' data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -681,7 +685,7 @@ const DatatablePage = () => {
           <SectionContainer title='ScrollY dynamic height' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover scrollY maxHeight='50vh' data={data()} />
+                <MDBDataTable striped bordered hover scrollY maxHeight='50vh' data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -693,7 +697,7 @@ const DatatablePage = () => {
           <SectionContainer title='With scrollX property' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover scrollX data={widerData} />
+                <MDBDataTable striped bordered hover scrollX data={widerData} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -705,7 +709,16 @@ const DatatablePage = () => {
           <SectionContainer title='With scrollX and scrollY properties' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover scrollX scrollY maxHeight='300xp' data={widerData} />
+                <MDBDataTable
+                  striped
+                  bordered
+                  hover
+                  scrollX
+                  scrollY
+                  maxHeight='300xp'
+                  data={widerData}
+                  materialSearch
+                />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
@@ -717,7 +730,7 @@ const DatatablePage = () => {
           <SectionContainer title='Without pagination' noBorder>
             <MDBCard>
               <MDBCardBody>
-                <MDBDataTable striped bordered hover paging={false} data={data()} />
+                <MDBDataTable striped bordered hover paging={false} data={data()} materialSearch />
               </MDBCardBody>
             </MDBCard>
           </SectionContainer>
